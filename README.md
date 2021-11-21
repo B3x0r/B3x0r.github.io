@@ -29,4 +29,4 @@ Eventually, this will be a website you can learn more about me.
 
 #### License information:
 
-Please don't use my photo. I took it, I grew the bush behind me, and the photo is of me. I just seems weird that you would have a reason to use my photo. All rights reserved.
+Please don't use my photo. I took it, I grew the bush behind me, and the photo is of me. It just seems weird that you would have a reason to use my photo. All rights reserved.
