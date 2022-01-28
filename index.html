@@ -1,172 +1,214 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <title>Carousel Template · Bootstrap v5.1</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <title>Carousel Template · Bootstrap v5.1</title>
 
-    
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
       }
+    }
+  </style>
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+  <!--icon links-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+  <link href="style.css" rel="stylesheet">
 
-    
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Rebecca's Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://b3x0r.github.io/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/B3x0r">GitHub</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/rebecca-durst-ab9a043/">LinkedIn</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-</header>
+</head>
 
-<main>
-
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Rebecca Durst</h1>
-            <p>Residential architect turned computer programmer.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Résumé</a></p>
-          </div>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Rebecca's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://b3x0r.github.io/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/B3x0r">GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Rebecca-Durst-Resume.pdf">Résumé</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/rebecca-durst-ab9a043/">LinkedIn</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+    </nav>
+  </header>
 
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Bootcamp Coder</h1>
-            <p>This July, I will have a Professional Certificate in Coding from MIT xPRO through Emeritus.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>Designer</h1>
-            <p>Looking to expand my design reach to clients of all kinds.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+          <img class="bd-placeholder-img" src="Butterfly Roof.jpg" height="100%" width="100%" />
+          <!-- Wrapper for slides-->
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Rebecca Durst</h1>
+              <p>Residential architect turned computer programmer.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Résumé</a></p>
+            </div>
           </div>
         </div>
+        <div class="carousel-item">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+          <img class="bd-placeholder-img" src="Tudor Home.jpg" height="100%" width="100%" />
+
+          <div class="container">
+            <div class="carousel-caption caption2">
+              <h1>Bootcamp Coder</h1>
+              <p>This July, I will have a Professional Certificate in Coding from MIT xPRO through Emeritus.</p>
+              <!-- <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+          <img class="bd-placeholder-img" src="Solarium.JPG" height="100%" width="100%" />
+
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <div class="carousel-caption caption3">
+                <h1>Designer</h1>
+                <p>Looking to expand my design reach to clients of all kinds.</p>
+                <!-- <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
 
-  <!-- Marketing messaging and featurettes
+    <!-- Marketing messaging and featurettes
   ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+    <div class="container-marketing">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>PacMen Exercise</h2>
-        <p>It's a PacMan type character going across the screen and back using using HTML and Javascript.</p>
-        <p><a class="btn btn-secondary" href="https://b3x0r.github.io/PacMan">See it in action! &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" img src="PacMan1.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Eye Exercise</h2>
-        <p>Using HTML, CSS, and Javascript, the eyes follow the cursor around the screen.</p>
-        <p><a class="btn btn-secondary" href="https://b3x0r.github.io/Eye-Exercise">Put some eyeballs on this! &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" img src="Eye.png" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Real Time Bus Tracker</h2>
-        <p>Using real time data for Boston's route 1, this project let's you watch the buses travel the city.</p>
-        <p><a class="btn btn-secondary" href="https://b3x0r.github.io/Share-Your-Real-Time-Bus-Tracker">Check it out! &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      img src="Bus Tracker.jpg"
-    </div><!-- /.row -->
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <span class="rounded-circle" style="height:140px; width: 140px;">
+            <img src="PacMan1.png" height="135" width="130" />
+          </span>
 
 
-    <!-- START THE FEATURETTES -->
+          <h2>PacMen Exercise</h2>
+          <p>Press a button to add Pacmen to the screen and watch them bounce around.</p>
+          <p><a class="btn btn-secondary" href="https://b3x0r.github.io/Pacmen-Factory/">See it in action! &raquo;</a>
+          </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <span class="rounded-circle" style="height:140px; width: 140px;">
+            <img class="rounded-circle" src="Eye.png" height="135" width="130" />
+          </span>
 
-    <hr class="featurette-divider">
+          <h2>Eye Exercise</h2>
+          <p>Using HTML, CSS, and Javascript, the eyes follow the cursor around the screen.</p>
+          <p><a class="btn btn-secondary" href="https://b3x0r.github.io/Eye-Exercise">Put some eyeballs on this!
+              &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Me talking about myself. <span class="text-muted">Get to know a little about me.</span></h2>
-        <p class="lead">Actually, not as awkward as it sounds.</p>
+        <div class="col-lg-4">
+          <span class="rounded-circle" style="height:140px; width: 140px;">
+            <img class="rounded-circle" src="Bus Tracker.jpg" height="135" width="130" />
+          </span>
+          <h2>Real Time Bus Tracker</h2>
+          <p>Using real time data for Boston's route 1, this project let's you watch the buses travel the city.</p>
+          <p><a class="btn btn-secondary" href="https://b3x0r.github.io/Share-Your-Real-Time-Bus-Tracker">Check it
+              out! &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <!--Languages-->
+      <hr class="language-divider">
+      <div class="row-divider">
+        <div style=" display: flex; justify-content: center; align-items: center;">
+
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
+        </div>
+      </div><!-- /.container -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Me talking about myself. <span class="text-muted">Get to know a little about
+              me.</span></h2>
+          <p class="lead">Actually, not as awkward as it sounds.</p>
+        </div>
+        <div class="col-md-5">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/jDuViyzqBz0" title="Getting to know me"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <title>Rebecca Durst</title>
+          <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">Getting to know
+            me.</text>
+
+        </div>
       </div>
-      <div class="col-md-5">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jDuViyzqBz0" title="Getting to know me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <title>Rebecca Durst</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">Getting to know me.</text>
 
-      </div>
-    </div>
-
-    <!-- <hr class="featurette-divider">
+      <!-- <hr class="featurette-divider">
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
@@ -187,28 +229,33 @@
         <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
 
       </div>
-    </div>
+    </div> -->
 
-    <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
+      <!-- /END THE FEATURETTES -->
 
-  </div><!-- /.container -->
-
-
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
-</main>
+    </div><!-- /.container -->
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </main>
 
-      
-  </body>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="./bootstrap.js"></script>
+
+</body>
+
 </html>
