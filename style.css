@@ -37,14 +37,14 @@ body {
 
 /* Secondary link */
 .btn-secondary {
-  background-color:rgb(62, 104, 114);
-  border-color: rgb(22, 37, 43);
+  background-color:rgb(9, 97, 82);
+  border-color: rgb(5, 61, 57);
 
 }
 /* visited link */
 .btn-secondary:visited {
-  background-color:rgb(45, 115, 117);
-  border-color: rgb(20, 65, 66);
+  background-color:rgb(40, 67, 73);
+  border-color: rgb(22, 37, 43);
 }
 /* mouse over link */
 .btn-secondary:hover {
@@ -55,8 +55,8 @@ body {
 }
 /* selected link */
 .btn-secondary:active {
-  background-color:rgb(9, 97, 82);
-  border-color: rgb(5, 61, 57);
+  background-color:rgb(49, 125, 128);
+  border-color: rgb(20, 65, 66);
 }
 
 .row.featurette {
@@ -81,4 +81,16 @@ body {
 .my-samples .my-samples-btns {
   position: absolute;
   bottom: 0px;
+}
+
+.item-links {
+  color:rgb(4, 61, 83);
+}
+
+.item-links:hover {
+  color: rgb(2, 31, 43);
+}
+
+.item-links:visited {
+  color:rgb(38, 4, 83);
 }
