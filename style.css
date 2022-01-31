@@ -5,13 +5,9 @@ body {
 .caption1 {
   font-style: italic;
   }
-}
 
 .caption3 {
   color: black;
-  p {
-    font-weight: bold;
-  }
 }
 
 /* link */
@@ -81,7 +77,6 @@ body {
   border-color: rgb(55, 53, 94);
   color: white;
 }
-
 /* mouse over link */
 .btn-about:hover {
   background-color:rgb(10, 148, 202);
